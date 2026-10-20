@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Local SQLite Database
+*.db
+*.db-journal
+*.sqlite3
+
+# Uploaded and detected images (exclude all images except .gitkeep)
+uploads/*
+!uploads/.gitkeep
+detected_images/*
+!detected_images/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
